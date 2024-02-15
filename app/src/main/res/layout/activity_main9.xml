@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="5dp"
+    android:background="#03A9F4"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity9">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:gravity="center"
+
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="331dp"
+            android:layout_height="64dp"
+            android:gravity="center"
+
+            android:text="AGE  CALCULATOR"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="175dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Birth Date:"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="61dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="153dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Today's Date:"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content">
+
+
+
+
+        <Button
+            android:id="@+id/btn_birth"
+            android:layout_width="179dp"
+
+            android:layout_height="match_parent"
+            android:background="#F6F8FA"
+            android:textColor="#03A9F4"
+            android:drawableEnd="@drawable/ic_baseline_arrow_drop_up_24"
+            android:drawableRight="@drawable/ic_baseline_arrow_drop_down_24"
+            android:text="00/00/0000"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="To"
+            android:textSize="25sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/btn_today"
+            android:layout_width="164dp"
+            android:layout_height="match_parent"
+            android:background="#F2F6F8"
+            android:textColor="#03A9F4"
+            android:drawableEnd="@drawable/ic_baseline_arrow_drop_down_24"
+            android:drawableRight="@drawable/ic_baseline_arrow_drop_down_24"
+            android:textSize="20sp" />
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_calculate"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#F4F0F0"
+        android:text="Calculate" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textSize="30sp"
+        android:textColor="#FAF5F5"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="0 Years | 0 Months | 0 Days"
+        android:textColor="#000C12"
+        android:textSize="25sp"
+        android:layout_marginBottom="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnext"
+        android:text="EXIT" />
+
+</LinearLayout>

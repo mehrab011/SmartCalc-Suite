@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TempConv"
+    android:background="#20B8AA"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#009688"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:gravity="center"
+            android:textColor="#100000"
+            android:textStyle="bold"
+
+            android:textSize="25sp"
+            android:text="Temperature Converter" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="220dp"
+
+            android:layout_height="match_parent"
+            android:gravity="center"
+
+            android:textSize="20sp"
+
+            android:text="Enter the Temperature Degree:" />
+
+        <EditText
+            android:id="@+id/amount"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:gravity="center"
+            android:hint="value"
+            android:inputType="numberDecimal" />
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="78dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="From:"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <Spinner
+            android:id="@+id/from"
+            android:layout_width="140dp"
+
+            android:layout_height="match_parent"
+            android:gravity="center" />
+
+
+        <TextView
+            android:layout_width="38dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="To:"
+            android:textColor="#000000"
+            android:textSize="20dp"/>
+
+        <Spinner
+            android:id="@+id/to"
+            android:layout_width="139dp"
+
+            android:layout_height="match_parent"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="20sp"
+
+            android:text="Convert" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Converted value"
+        android:gravity="center"
+        android:id="@+id/convtxt"
+        android:background="#fff"
+        android:textColor="#20B8AA"
+        android:textSize="20sp"
+        android:layout_marginTop="20sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_marginTop="20sp"
+        android:text="EXIT"
+        android:id="@+id/tempexit"
+        android:textSize="20sp"/>
+
+
+</LinearLayout>

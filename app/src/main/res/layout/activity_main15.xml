@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#A3DFD8"
+    android:padding="10dp"
+    tools:context=".MainActivity15">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="70dp">
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textColor="#084740"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:text="BDT" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:gravity="center_vertical"
+                    android:textColor="#162797"
+                    android:id="@+id/txt0"/>
+                <TextView
+                    android:layout_width="135dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="20sp"
+                    android:textColor="#084740"
+
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:text="converted into another currency" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:weightSum="2"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="0dp"
+
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+
+                    android:gravity="center"
+                    android:text="BDT"
+                    android:textColor="#D32F2F"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txt1"
+                    android:layout_width="0dp"
+                    android:textColor="#0E5C53"
+
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+
+
+                    android:gravity="center"
+                    android:textSize="17sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:weightSum="2">
+                <TextView
+                    android:layout_width="0dp"
+                    android:textSize="20sp"
+                    android:gravity="center"
+
+                    android:text="USD"
+                    android:textColor="#D32F2F"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:id="@+id/txt2"
+                    android:textSize="17sp"
+                    android:textColor="#0E5C53"
+                    android:gravity="center"
+
+
+
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:weightSum="2">
+                <TextView
+                    android:layout_width="0dp"
+                    android:textSize="20sp"
+                    android:gravity="center"
+
+                    android:text="Euro"
+                    android:textColor="#D32F2F"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:id="@+id/txt3"
+                    android:textSize="17sp"
+                    android:textColor="#0E5C53"
+                    android:gravity="center"
+
+
+
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:weightSum="2">
+                <TextView
+                    android:layout_width="0dp"
+                    android:textSize="20sp"
+                    android:gravity="center"
+
+                    android:text="Pound"
+                    android:textColor="#D32F2F"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:id="@+id/txt4"
+                    android:textSize="17sp"
+                    android:textColor="#0E5C53"
+                    android:gravity="center"
+
+
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:weightSum="2">
+                <TextView
+                    android:layout_width="0dp"
+                    android:textSize="20sp"
+                    android:gravity="center"
+
+                    android:text="INR"
+                    android:textColor="#D32F2F"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:id="@+id/txt5"
+                    android:textSize="17sp"
+                    android:textColor="#0E5C53"
+                    android:gravity="center"
+
+
+
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:weightSum="2">
+                <TextView
+                    android:layout_width="0dp"
+                    android:textSize="10sp"
+                    android:gravity="center"
+
+                    android:text="Chinese Yuan Renminbi (CNY)"
+                    android:textColor="#D32F2F"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:id="@+id/txt6"
+                    android:textSize="17sp"
+
+                    android:textColor="#0E5C53"
+                    android:gravity="center"
+
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:weightSum="2">
+                <TextView
+                    android:layout_width="0dp"
+                    android:textSize="10sp"
+                    android:gravity="center"
+
+                    android:text="Russian ruble (RUB)"
+                    android:textColor="#D32F2F"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:id="@+id/txt7"
+                    android:textSize="17sp"
+                    android:textColor="#0E5C53"
+                    android:gravity="center"
+
+
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:weightSum="2">
+                <TextView
+                    android:layout_width="0dp"
+                    android:textSize="20sp"
+                    android:gravity="center"
+
+                    android:text="Swiss franc"
+                    android:textColor="#D32F2F"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:id="@+id/txt8"
+                    android:textSize="17sp"
+                    android:textColor="#0E5C53"
+                    android:gravity="center"
+
+
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:weightSum="2">
+                <TextView
+                    android:layout_width="0dp"
+                    android:textSize="12sp"
+                    android:gravity="center"
+
+                    android:text="Japanese yen (JPY)"
+                    android:textColor="#D32F2F"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:id="@+id/txt9"
+                    android:textSize="17sp"
+                    android:textColor="#0E5C53"
+                    android:gravity="center"
+
+
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:weightSum="2">
+                <TextView
+                    android:layout_width="0dp"
+                    android:textSize="20sp"
+                    android:gravity="center"
+
+                    android:text="Saudi Riyal"
+                    android:textColor="#D32F2F"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:id="@+id/txt10"
+                    android:textSize="17sp"
+                    android:textColor="#0E5C53"
+                    android:gravity="center"
+
+
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:weightSum="2">
+                <TextView
+                    android:layout_width="0dp"
+                    android:textSize="20sp"
+                    android:gravity="center"
+
+                    android:text="Kuwaiti Dinar"
+                    android:textColor="#D32F2F"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:id="@+id/txt11"
+                    android:textSize="17sp"
+                    android:textColor="#0E5C53"
+                    android:gravity="center"
+
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+

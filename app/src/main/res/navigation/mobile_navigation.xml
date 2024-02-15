@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.practiseapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment
+        android:id="@+id/nav_instruction"
+        android:name="com.example.practiseapp.introFragment"
+        android:label="About Application"
+        tools:layout="@layout/intro_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.practiseapp.ui.main.AboutActivity7Fragment"
+        android:label="About"
+        tools:layout="@layout/about_activity7_activity"/>
+
+    <fragment
+        android:id="@+id/nav_gallary"
+        android:name="com.example.practiseapp.GallaryFragment"
+        android:label="Gallary"
+        tools:layout="@layout/gallary_fragment"/>
+
+    <fragment
+    android:id="@+id/nav_contacts"
+    android:name="com.example.practiseapp.ContactsFragment"
+    android:label="Contacts"
+    tools:layout="@layout/contacts_fragment"/>
+
+    <fragment
+    android:id="@+id/nav_share"
+        android:name="com.example.practiseapp.ShareFragment"
+
+    android:label="Share"
+    tools:layout="@layout/share_fragment2"/>
+
+    <fragment
+        android:id="@+id/nav_mail"
+        android:name="com.example.practiseapp.MailFragment"
+        android:label="Send Mail"
+        tools:layout="@layout/mail_fragment"/>
+</navigation>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:background="#020A35"
+
+    android:layout_height="match_parent"
+    tools:context=".TempSp" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="20sp"
+        android:textColor="#F4DC08"
+        android:textStyle="bold"
+        android:text="Temperature Converter"
+        />
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_height="413dp"
+        app:srcCompat="@drawable/tempsp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:id="@+id/tempbtn"
+        android:text="GET STARTED"
+        android:textColor="#3F51B5"
+        android:textSize="25sp"
+        android:layout_marginTop="600dp"/>
+
+</FrameLayout>

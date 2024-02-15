@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.practiseapp">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/multi"
+        android:label="Multiplex Calculator"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9786589517469771~3755461347"/>
+
+        <activity android:name=".WorksAct" />
+        <activity android:name=".Gpachart" />
+        <activity android:name=".Feedback" />
+        <activity android:name=".TempConv" />
+        <activity android:name=".TempSp" />
+        <activity android:name=".UnitConver" />
+        <activity android:name=".MainActivity14" />
+        <activity android:name=".UnitSplash" />
+        <activity android:name=".MainActivity15" />
+        <activity android:name=".Main14Activity" />
+        <activity android:name=".MainActivity13" />
+        <activity android:name=".ui.MainActivity" />
+        <activity android:name=".MainActivity12" />
+        <activity android:name=".MainActivity11" />
+        <activity android:name=".MainActivity10" />
+        <activity android:name=".MainActivity9" />
+        <activity android:name=".MainActivity8" />
+        <activity android:name=".MainActivity7" />
+        <activity android:name=".ContactsActivity"
+            tools:ignore="MissingClass" />
+        <activity android:name=".MainActivity6" />
+        <activity android:name=".MainActivity5" />
+        <activity android:name=".MainActivity4" />
+        <activity android:name=".MainActivity3" />
+        <activity
+            android:name=".MainActivity2"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
