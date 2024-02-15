@@ -5,7 +5,7 @@ SmartCalc Suite is a versatile utility application developed to simplify your da
 Requirements:
 
 
-1) Android Studio: Ensure you have Android Studio installed on your system. You can download it from the Android Studio website.
+1)Android Studio: Ensure you have Android Studio installed on your system. You can download it from the Android Studio website.
 
 2)JDK (Java Development Kit): Make sure you have JDK installed on your system. You can download it from the Oracle website.
 
